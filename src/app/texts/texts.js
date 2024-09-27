@@ -1,9 +1,10 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Glamour Grisales";
+const email = "yeimi502grisales@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    "¡Hola! Estoy interesado en los servicios de estética y belleza de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "+573214392724"; // Incluido el prefijo +57
+
 const textos = {
     index: {
         title: title,
@@ -12,25 +13,25 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "En 'Glamour Grisales', nos dedicamos a resaltar tu belleza con tratamientos estéticos personalizados y de alta calidad. Nuestro equipo trabaja con dedicación para ofrecerte los mejores resultados, realzando lo mejor de ti.",
+        description2: "Nuestra misión es proporcionar servicios de belleza que mejoren tu bienestar y autoestima. Con atención a cada detalle, te brindamos una experiencia única en el cuidado personal, porque sabemos que tu belleza merece el mejor trato."
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
         email: email
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "Aquí trabajamos para resaltar tu belleza",
+            p2: ""
         },
-        address: "Dirección del emprendimiento",
+        address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/yeimi.grisalez",
+        instagram: "https://www.instagram.com/yeimi_grisales",
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
-
 };
+
 export default textos;
