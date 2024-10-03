@@ -28,7 +28,7 @@ const textos = {
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/yeimi.grisalez",
+        facebook: "https://www.facebook.com/profile.php?id=61566533345273&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/yeimi_grisales",
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
